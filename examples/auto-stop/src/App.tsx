@@ -2,7 +2,6 @@ import { useState } from "react";
 import ScreenSaver from "screen-saver";
 
 function App() {
-  console.log(555555555555);
   const [isActive, setIsActive] = useState(false);
   const ScreenSaverChildren = () => <h1>Screen Saver</h1>;
   return (

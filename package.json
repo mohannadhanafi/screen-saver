@@ -1,10 +1,11 @@
 {
-  "name": "screen-saver",
-  "version": "1.0.0",
+  "name": "screen-saver-react",
+  "version": "1.0.1",
   "description": "Screen Saver",
   "author": "mohannadhanafi",
   "license": "MIT",
   "private": false,
+  "repository": "https://github.com/mohannadhanafi/screen-saver",
   "devDependencies": {
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
