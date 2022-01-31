@@ -14,7 +14,7 @@ const IdleTimeOutHandler = ({
   onActive,
   timeOutInterval = 6000,
   onIdle,
-  autoStop,
+  autoStop = false,
   isActive,
   isPaused,
 }: IdleTimeOutHandlerProps) => {
@@ -45,7 +45,9 @@ const IdleTimeOutHandler = ({
 
   const eventHandler = () => {
     if (timer) {
+      console.log({autoStop});
       if (autoStop) {
+        console.log("Hello from autoStop");
         onActive();
       }
       startTimer();

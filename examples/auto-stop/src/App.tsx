@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ScreenSaver from "screen-saver";
+import ScreenSaver from "screen-saver-react";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
