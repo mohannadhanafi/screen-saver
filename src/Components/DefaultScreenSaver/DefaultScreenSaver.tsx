@@ -1,7 +1,5 @@
 import React from "react";
-// import "./DefaultScreenSaver.css";
-
-// Shadow DOM / Inline CSS / Check memory
+import "./DefaultScreenSaver.css";
 
 const DefaultScreenSaver = () => {
   return (

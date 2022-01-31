@@ -11,7 +11,7 @@ function App() {
         setIsActive={setIsActive}
         autoStop
       />
-      {!isActive ? <h1>My App</h1> : ScreenSaverChildren()}
+      {isActive ? <h1>My App</h1> : ScreenSaverChildren()}
     </>
   );
 }
